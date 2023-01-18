@@ -1,25 +1,32 @@
 <script >
 import ComponentsHeader from './components/ComponentsHeader.vue';
-import ComponentsFooter from './components/ComponentsFooter.vue';
 import MainAppForum from './components/main/MainAppForum.vue';
 import MainForum from './components/main/MainForum.vue';
 import MainJoin from './components/main/MainJoin.vue';
 import MainLastNews from './components/main/MainLastNews.vue';
+import ComponentsFooter from './components/ComponentsFooter.vue';
+
 
 export default{
   components: {
     ComponentsHeader,
-    ComponentsFooter,
     MainAppForum,
     MainForum,
     MainJoin,
-    MainLastNews
+    MainLastNews,
+    ComponentsFooter
+
   }
 }
 </script>
 
 <template>
-
+    <ComponentsHeader />
+    <MainAppForum />
+    <MainForum />
+    <MainJoin />
+    <MainLastNews />
+    <ComponentsFooter />
 </template>
 
 <style lang="scss">
