@@ -1,17 +1,42 @@
 <script>
 
 export default {
-    
+    name:'mainAppForum.vue'
 }
 </script>
 
-<template lang="">
-    <div>
-        
-    </div>
+<template>
+    <main>
+        <div class="my-grey">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 ">
+                        <p class="text-center">
+                            AVAD FORUM IS THE PLACE TO BE
+                        </p>
+                        <p class=" my-p text-center">
+                            In quis lectus sed leo elementum faucibus in dapibus dictum.Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </template>
 
 
-<style lang="">
-    
+<style lang="scss">
+@use '../../Style/partials/variables' as *;
+    main{
+        .my-grey{
+            background-color: $background-grey;
+            width: 100%;
+            height: 200px;
+
+
+            .my-p{
+                color: #747474;
+            }
+        }
+    }
 </style>
