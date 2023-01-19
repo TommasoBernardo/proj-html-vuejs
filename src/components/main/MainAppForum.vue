@@ -40,7 +40,7 @@ export default {
             }
 
             .my-color-text{
-                margin-top: .5rem;
+                margin-top: 4.5rem;
                 color:#616161;
             }
         }
