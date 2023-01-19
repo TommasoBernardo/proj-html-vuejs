@@ -76,9 +76,14 @@ export default {
 <style lang="scss">
 @use '../Style/partials/variables' as *;
 @use 'bootstrap/scss/bootstrap.scss' as *;
+header{
+    font-family: 'Fira Sans', sans-serif;
+}
     .my-flex{
         display: flex;
         background-color: $header-color;
+        position: fixed;
+        width: 100%;
     }
     .my-size{
         width: 100%;
@@ -118,7 +123,7 @@ export default {
         h2{
             font-size: 7rem;
             margin-top: 17%;
-            margin-left: 17%;
+            margin-left: 15.5%;
         }
 
         p{

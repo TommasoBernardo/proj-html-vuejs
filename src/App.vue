@@ -37,4 +37,5 @@ export default{
 @use './Style/general.scss' as *; 
 @use './Style/partials/variables' as *; 
 @use 'bootstrap/scss/bootstrap.scss' as *;
+
 </style>

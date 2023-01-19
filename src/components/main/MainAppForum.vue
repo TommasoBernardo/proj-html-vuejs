@@ -11,7 +11,7 @@ export default {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6 ">
-                        <p class="text-center">
+                        <p class="my-color-text text-center">
                             AVAD FORUM IS THE PLACE TO BE
                         </p>
                         <p class=" my-p text-center">
@@ -28,6 +28,7 @@ export default {
 <style lang="scss">
 @use '../../Style/partials/variables' as *;
     main{
+        font-family: 'Fira Sans', sans-serif;
         .my-grey{
             background-color: $background-grey;
             width: 100%;
@@ -36,6 +37,11 @@ export default {
 
             .my-p{
                 color: #747474;
+            }
+
+            .my-color-text{
+                margin-top: .5rem;
+                color:#616161;
             }
         }
     }
