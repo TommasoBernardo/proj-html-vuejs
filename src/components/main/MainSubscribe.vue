@@ -17,13 +17,27 @@ export default {
                         <p class="text-center text-white">
                             Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat vulputate purus ipsums dolores ficilis uns etra. 
                         </p>
-                        <button class="text-center text-white">
+                        <button class="text-center text-white button-azull">
                             <strong>SIGN UP <i class="fa-solid fa-greater-than"></i></strong>
                         </button>
                     </div>
                 </div>
             </div>
-            
+        </div>
+        <div class="bg-gray">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 ">
+                        <h3 class="text-center mt-5 mb-5">Subscribe to our Newsletter</h3>
+                        <div class="text-center my-mg">
+                            <input class="my-form" type="email" placeholder="insert your email">
+                            <button class="button-azull">
+                                SEND
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -46,9 +60,20 @@ main{
         margin-left: 3%;
         font-size: 3rem;
     }
-    button{
+    .button-azull{
         background-color: #27aabe;
         border: none;
+        width: 150px;
+        height: 40px;
+    }
+    .bg-gray{
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 200px;
+    }
+    .my-form{
+        width: 300px;
+        margin-right: 40px;
     }
 }
 </style>

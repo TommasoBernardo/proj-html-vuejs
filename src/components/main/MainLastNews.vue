@@ -70,7 +70,7 @@ export default {
                     <p class="text-white pb-3">
                         In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsum dolores ficilis uns leo lectus.
                     </p>
-                    <button class="text-white">
+                    <button class="text-white button-black">
                         <strong>READ MORE ></strong>
                     </button>
                 </div>
@@ -122,7 +122,7 @@ export default {
                         <p class="text-white pb-3 p-size">
                             In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum.
                         </p>
-                        <button class="text-white">
+                        <button class="text-white button-black">
                             <strong>READ MORE ></strong>
                         </button>
                     </div>
@@ -212,7 +212,7 @@ export default {
             width: 100%;
             height: 650px;
         }
-        button{
+        .button-black{
             background-color: $color-black;
             border: none;
             width: 150px;
