@@ -44,7 +44,7 @@ export default {
                         </li>
 
                         <li>
-                            <i class="fas fa-search my-search"></i>
+                            <i class="my-color fas fa-search my-search"></i>
                         </li>
                     </ul>
                 </div>
@@ -140,6 +140,10 @@ header{
             background-color: $button-color;
             width: 150px;
             height: 40px;
+        }
+
+        .my-color{
+            color:white;
         }
     }
 </style>

@@ -135,7 +135,21 @@ export default {
                         </div>
                     </div>
             </div>
+            
         </div>
+        </div>
+        <div class="pre">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <p class="text-center mb-bottom">
+                            <strong class="text-white">
+                                GO TO OUR FORM <i class="fa-solid fa-arrow-right"></i>
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </main>
