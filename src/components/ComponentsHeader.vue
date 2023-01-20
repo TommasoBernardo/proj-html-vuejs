@@ -44,7 +44,7 @@ export default {
                         </li>
 
                         <li>
-                            <i class="fas fa-searh my-search"></i>
+                            <i class="fas fa-search my-search"></i>
                         </li>
                     </ul>
                 </div>
