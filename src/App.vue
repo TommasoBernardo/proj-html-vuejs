@@ -1,9 +1,9 @@
 <script >
 import ComponentsHeader from './components/ComponentsHeader.vue';
 import MainAppForum from './components/main/MainAppForum.vue';
-import MainForum from './components/main/MainForum.vue';
-import MainJoin from './components/main/MainJoin.vue';
 import MainLastNews from './components/main/MainLastNews.vue';
+import MainSection from './components/main/MainSection.vue';
+import MainSubscribe from './components/main/MainSubscribe.vue';
 import ComponentsFooter from './components/ComponentsFooter.vue';
 
 
@@ -11,9 +11,9 @@ export default{
   components: {
     ComponentsHeader,
     MainAppForum,
-    MainForum,
-    MainJoin,
     MainLastNews,
+    MainSection,
+    MainSubscribe,
     ComponentsFooter
 
   }
@@ -27,9 +27,9 @@ export default{
         crossorigin="anonymous">
     <ComponentsHeader />
     <MainAppForum />
-    <MainForum />
-    <MainJoin />
     <MainLastNews />
+    <MainSection />
+    <MainSubscribe />
     <ComponentsFooter />
 </template>
 

@@ -111,22 +111,21 @@ export default {
                 </div>
             </div>
             <div class="row">
-                <div class="col-8 my-relative">
-                    <img  class="img-fluid" src="../../assets/img/featured_article_2_bg.jpg" alt="clock">
-                    <div class="my-position my-coordinate">
-                        <p class="text-white my-feature">
-                        REVIEWED PRODUCT
-                    </p>
-                    <h3 class="text-white my-title size-h3">
-                        <strong>Mauris viverra atisan ipsum eget felis primis eficitur varius</strong> 
-                    </h3>
-                    <p class="text-white pb-3">
-                        In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum.
-                    </p>
-                    <button class="text-white">
-                        <strong>READ MORE ></strong>
-                    </button>
-                </div>
+                <div class="col-8 my-back">
+                    <div class="contain-i">
+                        <p class="text-white">
+                            REVIEWED PRODUCT
+                        </p>
+                        <h3 class="text-white my-title size-h3 ">
+                            <strong>Mauris viverra atisan ipsum eget felis primis eficitur varius</strong> 
+                        </h3>
+                        <p class="text-white pb-3 p-size">
+                            In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum.
+                        </p>
+                        <button class="text-white">
+                            <strong>READ MORE ></strong>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-4 ">
                     <h3 class="mb-4">
@@ -233,15 +232,14 @@ export default {
         .my-title{
             font-size: 2.5rem;
         }
-
-        .my-relative{
-            position: relative;
+        .my-back{
+            background-image: url(../../assets/img/featured_article_2_bg.jpg);
+            height:560px;
+            background-size: contain;
         }
-
-        .my-coordinate{
-            position: absolute;
-            bottom: 120px;
-            left: 100px;
+        .contain-i{
+            margin-top: 9rem;
+            margin-left: 100px;
         }
         .size-h3{
             width: 88%;
