@@ -76,7 +76,7 @@ export default {
                 </div>
             </div>
 
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center mb-3">
                 <div class="col-4 ">
                     <img class="my-img" src="../../assets/img/post_feat_img_22-320x202.jpg" alt="phone">
                     <p>
@@ -110,6 +110,67 @@ export default {
                     </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-8 my-relative">
+                    <img  class="img-fluid" src="../../assets/img/featured_article_2_bg.jpg" alt="clock">
+                    <div class="my-position my-coordinate">
+                        <p class="text-white my-feature">
+                        REVIEWED PRODUCT
+                    </p>
+                    <h3 class="text-white my-title size-h3">
+                        <strong>Mauris viverra atisan ipsum eget felis primis eficitur varius</strong> 
+                    </h3>
+                    <p class="text-white pb-3">
+                        In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum.
+                    </p>
+                    <button class="text-white">
+                        <strong>READ MORE ></strong>
+                    </button>
+                </div>
+                </div>
+                <div class="col-4 ">
+                    <h3 class="mb-4">
+                        <strong>Tutorials & Guides</strong>
+                    </h3>
+                    <div class="my-border-i">
+                    </div>
+                    <div class="col-12 d-flex  mb-5">
+                        <div>
+                            <img class="img-fluid margin" src="../../assets/img/post_feat_img_23-147x118.jpg" alt="logo">
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Donec ornare pretium eget scelisque justo</strong><br>
+                                <span class="my-text">october 11th,2015</span> | <span class="comments">comments 0ff</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-flex mb-5">
+                        <div>
+                            <img class="img-fluid margin" src="../../assets/img/post_feat_img_22-147x118.jpg" alt="logo">
+                        </div>
+                        <div>
+                            <p>
+                        <strong>Fusce sollicitundin nunc sed placerat varius</strong><br>
+                        <span class="my-text">october 11th,2015</span> | <span class="comments">comments 0ff</span>
+                    </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-flex mb-5">
+                        <div>
+                            <img class="img-fluid margin" src="../../assets/img/post_feat_img_20-147x118.jpg" alt="logo">
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Proin en purus sed  aru aliquet curabir vens</strong><br>
+                                <span class="my-text">october 11th,2015</span> | <span class="comments">comments 0ff</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </div>
 
@@ -171,6 +232,28 @@ export default {
         }
         .my-title{
             font-size: 2.5rem;
+        }
+
+        .my-relative{
+            position: relative;
+        }
+
+        .my-coordinate{
+            position: absolute;
+            bottom: 120px;
+            left: 100px;
+        }
+        .size-h3{
+            width: 88%;
+        }
+        .my-border-i{
+            border-bottom: 2px solid $color-orange;
+            margin-bottom: 3rem;
+            width: 100px;
+        }
+
+        .margin{
+            margin-right: 80px;
         }
     }
 </style>
