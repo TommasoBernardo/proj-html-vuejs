@@ -187,14 +187,12 @@ export default {
             margin-top: 5rem;
             color: $color-text;
         }
-        h3{
-            margin-bottom: 2rem;
-        }
+
         .my-border{
             border-bottom: 2px solid $color-orange;
             margin-bottom: 3rem;
             width: 70px;
-            margin-left: 40%
+            margin-left: 29%
         }
         .my-text{
             color: $color-text;
