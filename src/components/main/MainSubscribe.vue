@@ -18,7 +18,7 @@ export default {
                             Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat vulputate purus ipsums dolores ficilis uns etra. 
                         </p>
                         <button class="text-center text-white">
-                            SIGN UP <i class="fa-solid fa-greater-than"></i>
+                            <strong>SIGN UP <i class="fa-solid fa-greater-than"></i></strong>
                         </button>
                     </div>
                 </div>
@@ -44,6 +44,7 @@ main{
 
     .center{
         margin-left: 3%;
+        font-size: 3rem;
     }
     button{
         background-color: #27aabe;
